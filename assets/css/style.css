@@ -1,7 +1,6 @@
 /*background image*/
 body {
     background-image: url(C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\dust_scratches.png);
-    background-color: #cccccc;
 }
 
 /* My name background color and font */
@@ -11,6 +10,7 @@ h1
     width: 220px;
     margin-left: 152px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white
     }
 
 /* Right aligned inline list */
@@ -73,6 +73,62 @@ h3 {
     solid 
     #cccccc;
     color: #4aaaa5
+}
+/* Portfolio formatting */
+.travel {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.Traveltext{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+.hiking{
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px; 
+}
+
+.business{
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px; 
+}
+
+.food{
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px; 
+}
+
+.sports{
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px; 
+}
+
+/* Making message box larger */
+.Message{
+    height: 100px !important;
+    width: 400px;
+    font-size: 14px !important;
 }
 
 /* Fixed footer */
