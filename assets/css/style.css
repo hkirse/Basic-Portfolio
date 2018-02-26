@@ -1,6 +1,6 @@
 /*background image*/
 body {
-    background-image: url(C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\dust_scratches.png);
+    background-image: url("../images/dust_scratches.png");
 }
 
 /* My name background color and font */
