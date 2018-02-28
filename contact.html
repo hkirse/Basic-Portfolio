@@ -6,19 +6,21 @@
   <title>Basic-Portfolio</title>
 
   <!-- Link to CSS sheets -->
-  <link rel="stylesheet" type="text/css" href="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\css\style.css">
+  <link rel="stylesheet" type="text/css" href=".\assets\css\style.css">
 
 </head>
 <!-- Header section with "About", "Portfolio" and "Contact" list -->
 <body>
   <header>
-    <h1>Henry Kirse</h1>
+      <div class='headercontainer'>
+          <h1>Henry Kirse</h1>
+      </div>
 
     <div id="headerlist">
       <ul>
-        <li><a href="C:\Users\hkirs\Desktop\Basic-Portfolio\index.html">About</a></li>
-        <li><a href="C:\Users\hkirs\Desktop\Basic-Portfolio\portfolio.html">Portfolio</a></li>
-        <li><a href="C:\Users\hkirs\Desktop\Basic-Portfolio\contact.html">Contact</a></li>
+        <li><a href=".\index.html">About</a></li>
+        <li><a href=".\portfolio.html">Portfolio</a></li>
+        <li><a href=".\contact.html">Contact</a></li>
       </ul>  
     </div>
   </header>
@@ -27,18 +29,30 @@
 <div class='sidebar'>
   <h3>Connect with Me</h3>
   
-  <img id="Git Hub" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\github_square_black_107109.svg" 
-  width="50" height="50" alt="Git Hub">
+  <div id='socialimages'>
+      
+      <a href="https://github.com/">
+      <img id="Git Hub" src=".\assets\images\github_square_black_107109.svg" 
+      width="50" height="50" alt="Git Hub">
+      </a>
+  
+      <a href="https://www.linkedin.com">
+      <img id="LinkedIn" src=".\assets\images\linkedin_square_color_107091.svg" 
+      width="50" height="50" alt="LinkedIn">
+      </a>
 
-  <img id="LinkedIn" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\linkedin_square_color_107091.svg" 
-  width="50" height="50" alt="LinkedIn">
-
-  <img id="Stack Overflow" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\overflow_334695.svg" 
-  width="50" height="50" alt="Stack Overflow">  
-</div>
+    
+      <a href="https://stackoverflow.com/">
+      <img id="Stack Overflow" src=".\assets\images\overflow_334695.svg" 
+      width="45" height="45" alt="Stack Overflow">  
+      </a>
+ 
+      </div>
+  </div>
 
   <!-- Form section -->
   <div class="container">
+      <h2>Contact</h2>
   <form>
       <div class="Name">Name:<br>
         <input type="text" name="John Smith" value="John Smith"><br>
@@ -47,14 +61,18 @@
         <input type="text" name="Email" value="example@gmail.com"><br>
       </div>
       <div class="Message">Message:<br>
-        <input type="text" name="Message">
+        <TEXTAREA Name="Message" ROWS=7 COLS=50>
+        </TEXTAREA>
+
       </div>
   <br>
-  <br>
+
   <!-- Submit button -->
   <input type="Submit" value="Submit">
+
 </form>
   </div>
+  
 
 <!-- Footer section -->
 <div class='footer'>

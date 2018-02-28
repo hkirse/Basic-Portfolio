@@ -6,19 +6,21 @@
   <title>Basic-Portfolio</title>
 
   <!-- Link to CSS sheets -->
-  <link rel="stylesheet" type="text/css" href="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\css\style.css">
+  <link rel="stylesheet" type="text/css" href=".\assets\css\style.css">
 
 </head>
 <!-- Header section with "About", "Portfolio" and "Contact" list -->
 <body>
     <header>
-      <h1>Henry Kirse</h1>
+        <div class='headercontainer'>
+                <h1>Henry Kirse</h1>
+        </div>
   
       <div id="headerlist">
         <ul>
-          <li><a href="C:\Users\hkirs\Desktop\Basic-Portfolio\index.html">About</a></li>
-          <li><a href="C:\Users\hkirs\Desktop\Basic-Portfolio\portfolio.html">Portfolio</a></li>
-          <li><a href="C:\Users\hkirs\Desktop\Basic-Portfolio\contact.html">Contact</a></li>
+          <li><a href=".\index.html">About</a></li>
+          <li><a href=".\portfolio.html">Portfolio</a></li>
+          <li><a href=".\contact.html">Contact</a></li>
         </ul>  
       </div>
     </header>
@@ -27,59 +29,83 @@
 <div class='sidebar'>
     <h3>Connect with Me</h3>
     
-    <img id="Git Hub" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\github_square_black_107109.svg" 
-    width="50" height="50" alt="Git Hub">
-
-    <img id="LinkedIn" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\linkedin_square_color_107091.svg" 
-    width="50" height="50" alt="LinkedIn">
-
-    <img id="Stack Overflow" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\overflow_334695.svg" 
-    width="50" height="50" alt="Stack Overflow">  
-  </div>
+    <div id='socialimages'>
+      
+            <a href="https://github.com/">
+            <img id="Git Hub" src=".\assets\images\github_square_black_107109.svg" 
+            width="50" height="50" alt="Git Hub">
+            </a>
+        
+            <a href="https://www.linkedin.com">
+            <img id="LinkedIn" src=".\assets\images\linkedin_square_color_107091.svg" 
+            width="50" height="50" alt="LinkedIn">
+            </a>
+      
+          
+            <a href="https://stackoverflow.com/">
+            <img id="Stack Overflow" src=".\assets\images\overflow_334695.svg" 
+            width="45" height="45" alt="Stack Overflow">  
+            </a>
+       
+            </div>
+      </div>
 
 <!-- "Portfolio" section with pictures and text -->
-<div class="container">
+<div class="container2">
+        <h2>Portfolio</h2>
+
 <div class='travel'>
-    <img id="Travel" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\city_placeholder.jpg"
-    width="200" height="150" alt="city picture">     
+    <img id="Travel" src=".\assets\images\city_placeholder.jpg"
+    width="300" height="200" alt="city picture">     
         
-<div class"Traveltext">Travel</div>
+<div class="Traveltext">
+    <h4>Travel</h4>
+</div>
 </div>
 
 <div class='hiking'>
-    <img id="Hiking" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\nature_placeholder.jpg"
-    width="200" height="150" alt="nature">  
+    <img id="Hiking" src=".\assets\images\nature_placeholder.jpg"
+    width="300" height="200" alt="nature">  
 
-<div class"Hiking text">Hiking</div>
+<div class="Hikingtext">
+    <h4>Hiking</h4>
+</div>
 </div>
 
 <div class='business'>
-    <img id="Buisness" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\business_placeholder.jpg"
-    width="200" height="150" alt="business">  
+    <img id="Buisness" src=".\assets\images\business_placeholder.jpg"
+    width="300" height="200" alt="business">  
 
-<div class="Business text">Business</div> 
+<div class="Businesstext">
+    <h4>Business</h4>
+</div> 
 </div>
 
 <div class='food'>
-    <img id="Food" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\food_placeholder.jpg"
-    width="200" height="150" alt="food">  
+    <img id="Food" src=".\assets\images\food_placeholder.jpg"
+    width="300" height="200" alt="food">  
 
-<div class="Food text">Food</div>
+<div class="Foodtext">
+    <h4>Food</h4>
+</div>
 </div>
 
 <div class='sports'>
-    <img id="Sports" src="C:\Users\hkirs\Desktop\Basic-Portfolio\assets\images\sport_placeholder.jpg"
-    width="200" height="150" alt="sports">  
+    <img id="Sports" src=".\assets\images\sport_placeholder.jpg"
+    width="300" height="200" alt="sports">  
 
-<div class="Sports text">Sports</div>  
+<div class="Sportstext">
+    <h4>Sports</h4>
+</div>  
 </div>
 </div>
 
 
 
 <!-- Footer section -->
-  <div class='footer'>Copyright © 2018 Henry Kirse
-  </div>
+    <div class='footer'>
+    <p>Copyright © 2018 Henry Kirse</p>
+    </div>
 
 </body>
 </html>

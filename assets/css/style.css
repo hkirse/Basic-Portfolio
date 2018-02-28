@@ -1,16 +1,39 @@
+/*Header color*/
+header {
+    background-color: #ffffff;
+    border-style: solid;
+    border-bottom-color: #cccccc;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    margin: 0px;
+}
+
+
 /*background image*/
 body {
     background-image: url("../images/dust_scratches.png");
+    margin: 0px;
+    padding: 0px;
 }
 
 /* My name background color and font */
 h1 
     {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+    }
+
+.headercontainer {
     background-color: #4aaaa5;
     width: 220px;
-    margin-left: 152px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: white
+    height: 60px;
+    margin-left: 168px;
+    text-align: center;
+
     }
 
 /* Right aligned inline list */
@@ -20,19 +43,32 @@ h1
         padding: 0;
         font-family: 'Georgia', Times, Times New Roman, serif;
         float: right;
-        margin-top: -75px;
-        margin-right: 152px;
+        margin-top: -55px;
+        margin-right: 168px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
     }
 
 #headerlist ul li
     {
         list-style-type: none;
         display: inline;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
     }
 #headerlist li:not(:first-child):before 
     {
         content: " | ";
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
     }
+
+ul li a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+    font-size: 15px;
+     }
 
 /*Wrapping text around picture */
 #profile
@@ -40,96 +76,202 @@ h1
         float: left;
         margin-right: 10px;
         margin-bottom: 5px;
+        padding: 10px;
     }
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 10px;
+    font-size: 15px;
+}    
 
 .container   {
-    border: 5px;
     border-style: solid;
-    border-color: black;
+    border-color: #dddddd;
     height: 400px;
     width: 650px;
-    margin-left: 152px;
+    margin-left: 168px;
+    background-color: #ffffff;
+    margin-top: 20px;
     }
 
+.container2   {
+        border-style: solid;
+        border-color: #dddddd;
+        height: 800px;
+        width: 650px;
+        margin-left: 168px;
+        background-color: #ffffff;
+        margin-top: 20px;
+        }
+
     h2 {
-      border-bottom: 5px 
+      border-bottom: 2px 
       solid 
       #cccccc;
-      color: #4aaaa5
+      color: #4aaaa5;
+      margin-left: 11px;
+      margin-right: 11px;
   }
 
 /* Move "Connect with Me" box to the right */
 .sidebar {
     float: right;
     width: 270px;
-    border: 5px;
     border-style: solid;
-    border-color: black;
+    border-color: #dddddd;
     margin-right: 152px;
+    background-color: #ffffff;
+    margin-top: 20px;
 }
 
-h3 {
-    border-bottom: 5px 
-    solid 
-    #cccccc;
-    color: #4aaaa5
-}
-/* Portfolio formatting */
-.travel {
-    background-color: #4aaaa5;
-    color: white;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 5px;
+/* Center social media icons */
+#socialimages {
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+    margin-left: 59px;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
     
 }
 
-.Traveltext{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+.alignment {
+    margin: left: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    border-bottom: 2px 
+    solid 
+    #cccccc;
+    color: #4aaaa5;
+    text-align: center;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+/* Portfolio formatting */
+.travel {
+  float: left;
+  padding: 10px;
+}
+
+.Traveltext {
+    position: absolute;
+    background-color: #4aaaa5;
+    width:300px;
+    text-align: center;
+    color: white;
+    top: 315px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
 
 
 .hiking{
+    float: right;
+    padding: 10px;
+}
+
+.Hikingtext {
+    position: absolute;
     background-color: #4aaaa5;
+    width:300px;
+    text-align: center;
     color: white;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 5px; 
+    top: 315px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .business{
-    background-color: #4aaaa5;
-    color: white;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 5px; 
+    padding: 10px;
+}
+
+.Businesstext {
+    position: absolute;
+    background-color: #4aaaa5;
+    width:300px;
+    text-align: center;
+    color: white;
+    top: 535px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .food{
+    float: right;
+    padding: 10px;
+}
+
+.Foodtext {
+    position: absolute;
     background-color: #4aaaa5;
+    width:300px;
+    text-align: center;
     color: white;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 5px; 
+    top: 535px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .sports{
-    background-color: #4aaaa5;
-    color: white;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 5px; 
+    padding: 10px;
 }
 
-/* Making message box larger */
-.Message{
-    height: 100px !important;
-    width: 400px;
-    font-size: 14px !important;
+.Sportstext {
+    position: absolute;
+    background-color: #4aaaa5;
+    width:300px;
+    text-align: center;
+    color: white;
+    top: 755px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+/*Contact Text and padding */
+
+.Name {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.Email{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.Message{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* Submit Button styling */
+input[type=submit]{
+    position: relative;
+    bottom: 10px;
+    right: -10px;
+    background-color: #4aaaa5;
+    width: 100px;
+    height: 35px;
+    margin-right:10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    border: 0px solid #999;
+    }
+    
+
+
 
 /* Fixed footer */
 .footer {
