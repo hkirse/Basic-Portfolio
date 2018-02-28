@@ -132,18 +132,19 @@ p {
     margin: 0px;
     padding: 10px;
     margin-left: 59px;
-    text-decoration: none;
-    overflow: hidden;
-    white-space: nowrap;
-    
+    height: auto;
+      
 }
 
-.alignment {
-    margin: left: 100px;
-}
 
 a {
     text-decoration: none;
+}
+
+#StackOverflow {    
+        position: relative;
+        top: -2px;
+    
 }
 
 h3 {
@@ -282,6 +283,6 @@ input[type=submit]{
     background-color: #666666;
     text-align: center;
     border-top: 5px;
+    border-top-color: #4aaaa5;
     border-style: solid;
-    border-color: #4aaaa5
-}
+    }
